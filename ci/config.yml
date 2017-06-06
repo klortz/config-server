@@ -4,7 +4,7 @@ deploy_dev_task: pipelines/cf/tasks/blue-green-deploy.yml # don't change
 app_name: configserver # don't change
 jar_name: klortz-configserver # set this to '<first_initial><lastname>-configserver' ex: sgreenberg-configserver
 
-github_app_repo_uri: https://github.com/klortz/configserver-initial.git # https url of your configserver app github fork.  ex: https://github.com/spgreenberg/configserver-initial.git
+github_app_repo_uri: https://github.com/klortz/config-server.git # https url of your configserver app github fork.  ex: https://github.com/spgreenberg/configserver-initial.git
 github_app_repo_branch: master # don't change
 
 github_pipelines_repo_uri: https://github.com/klortz/training-pipelines-initial.git # https url of your training-pipelines-initial fork.  ex: https://github.com/spgreenberg/training-pipelines-initial.git

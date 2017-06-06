@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:https://github.com/klortz/config-repo
+security:
+  user:
+    name: {username}
+    password: {password}          

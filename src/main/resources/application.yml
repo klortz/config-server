@@ -3,8 +3,10 @@ spring:
     config:
       server:
         git:
-          uri:https://github.com/klortz/config-repo
+          uri:{$vcap.services.git-repo.credentials.uri}
+          username: {$vcap.services.git-repo.credentials.username}
+          username: {$vcap.services.git-repo.credentials.password}
 security:
   user:
-    name: {username}
-    password: {password}          
+    name: user
+    password: pass          

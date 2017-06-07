@@ -9,4 +9,7 @@ spring:
 security:
   user:
     name:user
-    password:pass          
+    password:pass
+logging:
+  level:
+    org.springframework.cloud.config:TRACE  

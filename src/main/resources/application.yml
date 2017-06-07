@@ -4,9 +4,9 @@ spring:
       server:
         git:
           uri:${vcap.services.config-repo-service.credentials.uri}
-          username: ${vcap.services.config-repo-service.credentials.username}
-          password: ${vcap.services.config-repo-service.credentials.password}
+          username:${vcap.services.config-repo-service.credentials.username}
+          password:${vcap.services.config-repo-service.credentials.password}
 security:
   user:
-    name: user
-    password: pass          
+    name:user
+    password:pass          

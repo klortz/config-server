@@ -25,4 +25,4 @@ cf_dev_organization: rscale-training-2 # set to your org
 cf_dev_space: kirk.lortz@cgi.com # set to your space
 cf_dev_hostname: configserver-klortz # set to 'configserver-<first_initial><lastname>'. ex: configserver-sgreenberg
 cf_dev_domain: cfapps.io # set to the apps domain for your CF
-cf_dev_manifest: # set to the dev manifest path in your configserver app repository. ex: dev-manifest.yml
+cf_dev_manifest: dev-config-manifest.yml # set to the dev manifest path in your configserver app repository. ex: dev-manifest.yml
